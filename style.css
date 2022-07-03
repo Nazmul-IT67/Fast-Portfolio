@@ -10,8 +10,16 @@ body{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experiences{
+	background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
 h1{
 	font-size: 45px;
+}
+h2{
+	color: orange;
 }
 p{
 	color: dimgray;
@@ -19,7 +27,7 @@ p{
 .color{
 	color: orange;
 }
-section{
+.section{
 	display: flex;
 	margin-bottom: 150px;
 }
@@ -36,4 +44,25 @@ section{
 	padding: 10px 40px;
 	border-radius: 5px;
 	color: white;
+}
+.developer{
+	width: 40%;
+	padding-left: 20px ;
+	margin-left: 5%;
+	margin-right: 5%;
+	box-shadow: 10px 10px 20px gray;
+	border-radius: 10px;
+	border-left:7px solid tomato;
+}
+.developer2{
+	width: 40%;
+	padding-left: 20px ;
+	margin-left: 5%;
+	margin-right: 5%;
+	box-shadow: 10px 10px 20px gray;
+	border-radius: 10px;
+	border-left:7px solid blue;	
+}
+footer{
+	text-align: center;
 }
