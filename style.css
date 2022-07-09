@@ -1,10 +1,10 @@
 body{
 	font-family: 'Pacifico', cursive;
 }
-.top{
+/*.top{
 	background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-}
+}*/
 .middle{
 	background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;

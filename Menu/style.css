@@ -1,0 +1,60 @@
+.logo{
+	font-size: 35px;
+	color: white;
+	margin-left: 35px;
+}
+.logo span{
+	color: blue;
+}
+nav{
+	display: flex;
+	align-items: center;
+	background-color: black;
+	justify-content: space-between;
+}
+nav ul{
+	display: flex;
+	margin-right: 30px;
+}
+nav li{
+	list-style: none;
+	font-size: 20px;
+	padding: 5px 20px;
+}
+nav li a{
+	text-decoration: none;
+	color: white;
+}
+nav li a:hover{
+	color: tomato;
+}
+.dropdown{
+	display: none;
+	position: absolute;
+	background-color: black;
+	margin-top: 5px;
+	margin-left:-18px ;
+	padding-left:1px ;
+	border-radius: 5px;
+}
+.dropdown li{
+	border-top: 1px solid dimgray;	
+}
+nav>ul>li:hover>ul{
+	display: block;
+}
+.dropdown1{
+	display: none;
+	position: absolute;
+	background-color: black;
+	margin-left: 120px;
+	margin-top: -29px;
+	padding-left: 1px;
+    border-radius: 5px;
+}
+nav>ul>li>ul>li:hover>ul{
+	display: block;
+}
+i{
+	margin-left: 5px;
+}
